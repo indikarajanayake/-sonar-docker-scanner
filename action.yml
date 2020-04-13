@@ -1,0 +1,13 @@
+name: 'indika-sonar-cloud-scan'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+inputs:
+  projectBaseDir:
+    required: false
+    default: '.'
+  projectKey:
+    required: true
+    default: 'myfirstpojectscan1'
+  organisation:
+    required: true  

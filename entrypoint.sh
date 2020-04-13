@@ -1,0 +1,2 @@
+#!/bin/bash
+sonar-scanner -Dsonar.projectKey=${INPUT_PROJECTKEY} -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=b14e9e2e05a14607b993675dd96a465ea8697b21 -Dsonar.projectBaseDir=${INPUT_PROJECTBASEDIR} -Dsonar.organization=${INPUT_ORGANISATION} -Dsonar.scm.disabled=true
